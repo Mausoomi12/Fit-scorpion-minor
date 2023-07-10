@@ -1,6 +1,6 @@
 body {
     font-family: 'Josefin Sans';
-    background-color: #FFFAFB;
+    background-color: #752822;
   }
   
   * {
@@ -57,9 +57,10 @@ body {
     position: absolute;
     right: 40px;
     top: 0px;
-    width: 400px;
-    height: 600px;
+    width: 600px;
+    height: 780px;
     margin-top: -330px;
+    border-radius: 20px;
   
   }
   
@@ -141,4 +142,11 @@ body {
     .exercise-card {
       width: 280px;
     }
+  }
+
+  html, body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative
   }
