@@ -64,9 +64,9 @@ const Navbar = () => {
         </Link>
         <Stack direction="row"  gap="8px" fontFamily="Alegreya" fontSize="24px" alignItems="flex-end">
           <span>Calculators</span>
-          <IconButton  sx ={{mb:'-11px' } } size ="large" onClick={handleMenuOpen}>
+          <IconButton  sx ={{mb:'-11px' } } size='medium' onClick={handleMenuOpen}>
 
-            <KeyboardArrowDownIcon sx={{fontSize:'40 px'}} />
+            <KeyboardArrowDownIcon sx={{fontSize:'10px' }} />
           </IconButton>
           <Menu
             anchorEl={anchorEl}
@@ -92,3 +92,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
