@@ -1,7 +1,13 @@
 body {
     font-family: 'Josefin Sans';
-    background-color: #752822;
-  }
+    
+    background: #abbaab;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+    
+    /* background-image: linear-gradient(to left bottom, #0b3470, #51286e, #7c0a5a, #950038, #991209);  } */
   
   * {
     padding: 0px;
@@ -51,6 +57,11 @@ body {
   .detail-image {
     width: 729px;
     height: 742px;
+    border-bottom-right-radius: 5%;
+    
+    border-top-right-radius: 5%;
+    
+   
   }
   
   .hero-banner-img {
@@ -58,9 +69,9 @@ body {
     right: 40px;
     top: 0px;
     width: 600px;
-    height: 780px;
+    height: 770px;
     margin-top: -330px;
-    border-radius: 20px;
+    border-bottom-left-radius: 50px;
   
   }
   
@@ -86,6 +97,10 @@ body {
   .bodyPart-card {
     transform: scale(1, 1);
     transition: 0.3s all ease-in-out;
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; */
+
   }
   
   .exercise-card:hover,
@@ -111,6 +126,7 @@ body {
     .detail-image {
       width: 300px;
       height: 300px;
+      
     }
   
   
@@ -149,4 +165,26 @@ body {
   }
   body {
     position: relative
+  }
+
+  .nav-link {
+    position: relative;
+    color: #3A1212;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #3A1212;
+  }
+  
+  .nav-link:hover::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #3A1212;
+    transition: background-color 0.3s ease;
   }

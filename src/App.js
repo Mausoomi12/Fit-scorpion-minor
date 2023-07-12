@@ -7,7 +7,7 @@ import ExerciseDetail from './pages/ExerciseDetail';
 import Home from './pages/Home';
 
 import Footer from './components/Footer';
-import Login from "./components/Login";
+
 import Navbar from './components/Navbar';
 import BmiCalculator from './components/BmiCalculator';
 import BmrCalculator from './components/BmrCalculator';
@@ -25,7 +25,7 @@ const App = () => (
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/exercise/:id" element={<ExerciseDetail />} />
-      <Route path="/login" element={<Login />} />
+      
       <Route path="/calculators/bmi" element ={<BmiCalculator/>} />
       <Route path="/calculators/bmr" element ={<BmrCalculator/>} />
     </Routes>

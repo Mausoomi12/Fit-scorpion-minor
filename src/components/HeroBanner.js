@@ -18,7 +18,7 @@ const fadeInUp = keyframes`
 
 const HeroBanner = () => (
   <Box sx={{ mt: { lg: '212px', xs: '70px' }, ml: { sm: '100px' } }} position="relative" p="20px">
-    <Typography color="#FF2625" fontWeight="600" fontSize="26px" animation={`${fadeInUp} 1s ease-out`}>Fitness Club</Typography>
+    <Typography color="#FF2625" fontWeight="600" fontSize="36px" animation={`${fadeInUp} 1s ease-out`}>Fitness Club</Typography>
     <Typography fontWeight={700} sx={{ fontSize: { lg: '44px', xs: '40px' } }} mb="23px" mt="30px" animation={`${fadeInUp} 1s 0.25s ease-out`}>
       Sweat, Smile <br />
       And Repeat

@@ -91,15 +91,16 @@
     border :'20px'
   }
   .calculate-button {
-background-color: green;
+background-color: rgb(220, 220, 223);
 
-
-margin-right:65%
+padding: 3px;
+margin-right:62%
 
   }
   .reset-button {
-    background-color: red;
-    
+    background-color: rgb(95, 3, 3);
+    padding: 3px;
+    color:hsl(240, 100%, 99%);
     margin-right:0%
     
       }
